@@ -187,8 +187,8 @@ class GUI(wx.Frame):
                 source_name_list.append(Source_name)
         count = 0
         for source in source_name_list:
-            from Source_connection.All_source import Match_source
-            Match_source(source)
+            # from Source_connection.All_source import Match_source
+            # Match_source(source)
             count += 1
             print('\n Source Name '+str(count)+' : '+str(source) + '  ----> Done')
             print('===================================================================\n')
